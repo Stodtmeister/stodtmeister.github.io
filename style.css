@@ -58,10 +58,30 @@ sup, .sup {
   margin-top: -180px;
 }
 
+/*! Added stuff */
 .card-footer {
   background-color: white;
   padding: 1rem 1rem;
+  border: 1px solid grey;
 }
+
+.card {
+  height: 300px;
+  border: none;
+}
+
+.card-body {
+  background-color: rgb(116 156 178);
+  height: 200px;
+}
+
+.project-pic {
+  height: 250px;
+  width: 100%;
+}
+
+/*! Added stuff end*/
+
 
 .background-image {
   background-position: center center;
