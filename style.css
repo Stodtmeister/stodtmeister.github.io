@@ -72,12 +72,21 @@ sup, .sup {
 
 .card-body {
   background-color: rgb(116 156 178);
-  height: 200px;
+  height: 186px;
 }
 
 .project-pic {
   height: 280px;
   width: 100%;
+}
+
+#skills i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#skills p {
+  font-size: 20px;
 }
 
 /*! Added stuff end*/
