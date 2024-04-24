@@ -522,13 +522,6 @@ section .container {
   width: 80px;
 }
 
-
-.skill-row {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid red;
-}
-
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
