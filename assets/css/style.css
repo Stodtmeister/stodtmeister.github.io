@@ -196,7 +196,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -268,7 +268,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -516,6 +516,17 @@ section .container {
   height: 10px;
   transition: 0.9s;
   background-color: #18d26e;
+}
+
+.icon-box img {
+  width: 80px;
+}
+
+
+.skill-row {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
 }
 
 /*--------------------------------------------------------------
@@ -1005,7 +1016,7 @@ section .container {
   width: 300;
 }
 
-/* 
+/*
 .portfolio-details-1 {
   padding-top: 40px;
   background: rgba(0, 0, 0, 0.8);
