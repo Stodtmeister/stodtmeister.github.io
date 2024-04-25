@@ -837,15 +837,11 @@ section .container {
 }
 
 .portfolio .portfolio-wrap {
-  /* display: flex;
-  justify-content: space-evenly; */
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
-  /* width: 500px; */
-  /* height: 400px; */
 }
 
 .portfolio .portfolio-wrap::before {
@@ -859,6 +855,7 @@ section .container {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+  height: 300px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
