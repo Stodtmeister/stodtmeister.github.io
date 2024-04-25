@@ -778,6 +778,27 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: 0.3s;
+  text-align: center;
+  /* display: inline-block; */
+  color: #fff;
+  background: #18d26e;
+  width: 100px;
+  height: 38px;
+  margin-right: 10px;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -816,11 +837,15 @@ section .container {
 }
 
 .portfolio .portfolio-wrap {
+  /* display: flex;
+  justify-content: space-evenly; */
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
+  /* width: 500px; */
+  /* height: 400px; */
 }
 
 .portfolio .portfolio-wrap::before {
